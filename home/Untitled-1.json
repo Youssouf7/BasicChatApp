@@ -1,0 +1,28 @@
+{
+    "results": [
+      {
+        "teamName": "NewTeam",
+        "teamID": "101",
+        "members": [
+          { "name": "Member 1", "Dept": "CSE", "Student_ID": 180042101 }
+          ...
+        ],
+        "solved": "7",
+        "totalPoints": "1542",
+        "teamLogo": "https://images-contest/teams/team101/team101.png"
+      },
+      {
+        "teamName": "IUT_CG",
+        "teamID": "102",
+        "teamMembers": [
+          { "name": "Member 3", "Dept": "CSE", "Student_ID": 180041101 }
+          ...
+        ],
+        "solved": "6",
+        "totalPoints": "1208",
+        "teamLogo": "https://images-contest/teams/team102/team102.png"
+      }
+      ...
+    ]
+  }
+
