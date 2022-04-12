@@ -9,6 +9,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import IconE from 'react-native-vector-icons/Entypo';
 
 import CustomSidebarMenu from '../home/CustomSidebarMenu';
+// import MapsUber from '../maps/MapsUber';
 
 const Drawer = createDrawerNavigator();
 const DrawerNavigation = ({navigation}) => {
@@ -44,6 +45,7 @@ const DrawerNavigation = ({navigation}) => {
         headerTintColor: 'white',
       }}>
       <Drawer.Screen name="BlogPosts" component={HomeNavigation} />
+      {/* <Drawer.Screen name="MapsUber" component={MapsUber} /> */}
     </Drawer.Navigator>
   );
 };
